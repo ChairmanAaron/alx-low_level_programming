@@ -1,10 +1,11 @@
 #include<stdio.h>
 /**
- * main - Write a program using puts function
- *return: 0 if successful else 1 if error
+ * main - Write a program with the printf function
+ * Return: 0 (Successfuly Executed)
  */
+
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle\n");
-return (0);
+	puts("\"Programming is like building a multilingual puzzle\n");
+	return (0);
 }
