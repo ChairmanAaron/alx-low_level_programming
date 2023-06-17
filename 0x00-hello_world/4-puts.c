@@ -1,12 +1,10 @@
-#include<istdio.h>
+#include<stdio.h>
 /**
- * Main - Write a program with puts function
- *
- * Return: 0 (Successfuly Executed)
+ * main - Write a program using puts function
+ *return: 0 if successful else 1 if error
  */
-
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
-	return (0);
+puts("\"Programming is like building a multilingual puzzle\n");
+return (0);
 }
