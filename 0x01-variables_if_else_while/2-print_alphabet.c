@@ -1,6 +1,7 @@
 #include<stdio.h>
 
-/** main - Point of entry
+/**
+ * main - Point of entry
  * Return: 0 (Successfuly Executed)
  */
 
