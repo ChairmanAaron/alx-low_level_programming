@@ -1,8 +1,6 @@
 #include<stdio.h>
-#include<stdlib.h>
 
-/**
- * main - Write a program with the printf function
+/** main - Point of entry
  * Return: 0 (Successfuly Executed)
  */
 
@@ -13,7 +11,7 @@ int main(void)
 		;
 	for (c = 'a'; c <= 'z'; c++)
 	putchar(c);
-	puitchar('\n');
+	putchar('\n');
 
 	return (0);
 }
