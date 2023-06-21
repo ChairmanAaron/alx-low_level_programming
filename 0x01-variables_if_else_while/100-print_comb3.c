@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 
 /**
  * main - Point of entry
@@ -10,18 +12,19 @@ int main(void)
 {
 	int a, b;
 
-	for (a = '0'; a < '9'; a++)
+	for (a = '0'; a <= '8'; a++)
 	{
 
 	for (b = a + 1; b <= '9'; b++)
+	{
+
+	if (b != a)
 	{
 
 	putchar (a);
 	putchar (b);
 
 	if (a == '8' && b == '9')
-	{
-
 	continue;
 
 	putchar(',');
